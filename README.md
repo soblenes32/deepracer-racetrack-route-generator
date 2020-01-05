@@ -59,6 +59,10 @@ best_commandNodeSeries = simpleGeneticAlgorthm.evolve(num_generations=num_genera
 best_commandNodeSeries.plotBigTrackAndRoute(coordinate_labels=True)
 ```
 
+7. Export the route waypoint series
+```python
+np.save('./results/New_York_Track-route.npy', np.asarray(best_commandNodeSeries.route_waypoints))
+```
 
 ## Motivation & background
 
