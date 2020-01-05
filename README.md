@@ -1,6 +1,6 @@
 ![A New York Racetrack sample image depicting a route and heading-over-time charts](./assets/new-york-sample.png)
 # DeepRacer Racetrack Route Generator
-> A genetic algorithm-based simulation approach for generating optimized racetrack traversal routes
+> A genetic algorithm-based approach for generating optimized racetrack traversal routes
 
 The Route Generator takes DeepRacer racetrack data as input and employs a stochastic process to approximate an optimal traversal route, given a few assumptions about the characteristics of the DeepRacer vehicle. The output is an ordered waypoint list registered to the same coordinate system as the input. The route coordinates may be exported to a file or another format to embed in the DeepRacer reward function. The program itself requires non-trivial computation time, and is not suitable for runtime execution from the reward function.
 
