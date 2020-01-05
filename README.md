@@ -111,6 +111,6 @@ Data about the DeepRacer vehicle is not currently readily available. The current
 - Straight_Track => Algorithm assumes circular track. This could be changed if there are nontrivial instances in the future.
 
 ## Acknowledgements
-Special thanks to Jorge Silva whose fantastic [blog post](https://medium.com/myplanet-musings/the-best-path-a-deepracer-can-learn-2a468a3f6d64) has partially inspired this approach.
-
-Special thanks to ARCC for their concise [blog post](https://medium.com/@autonomousracecarclub/visualizing-aws-deepracer-waypoints-9b94e6311b7a) primer on how to load DeepRacer track data.
+- Special thanks to Jorge Silva whose fantastic [blog post](https://medium.com/myplanet-musings/the-best-path-a-deepracer-can-learn-2a468a3f6d64) has partially inspired this approach.
+- Special thanks to ARCC for their concise [blog post](https://medium.com/@autonomousracecarclub/visualizing-aws-deepracer-waypoints-9b94e6311b7a) primer on how to load DeepRacer track data.
+- Racetrack data sourced from [AWS DeepRacer workshop samples](https://github.com/aws-samples/aws-deepracer-workshops/tree/master/log-analysis)
