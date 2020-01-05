@@ -103,6 +103,9 @@ Data about the DeepRacer vehicle is not currently readily available. The current
 - Tokyo_Training_Track
 - AWS_track
 - Virtual_May19_Train_track
+- ChampionshipCup2019_track
+- China_track
+- Mexico_track
 
 ### Nonfunctional tracks:
 - Reinvent_base => There seems to be a problem with the inner track data waypoint sequence reversing along the y apex
