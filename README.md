@@ -61,7 +61,7 @@ best_commandNodeSeries.plotBigTrackAndRoute(coordinate_labels=True)
 
 7. Export the route waypoint series
 ```python
-np.save('./results/New_York_Track-route.npy', np.asarray(best_commandNodeSeries.route_waypoints))
+np.save('./results/London_Loop_Train-route.npy', np.asarray(best_commandNodeSeries.route_waypoints))
 ```
 
 ## Motivation & background
