@@ -82,10 +82,10 @@ The GA crossover function picks two random cut points corresponding to track inn
 
 ## Limitations of this approach
 
-The current implementation requires:
-- Uniform track width
-- Track is a loop
-- Inner track waypoint sequences are ordered
+Requirements of the current implementation:
+- The width of the track must be uniform
+- Track must take the form of a loop; the initial waypoint coordinates must align with the final waypoint coordinates
+- Inner track waypoint sequences must be correctly ordered
 
 Because the search space is large and a genetic algorithm has been employed to help approximate an optimal route, this program probably cannot be effectively used on-line. Rather, an optimal route should be precomputed and loaded for use as part of the DeepRacer activation function.
 
