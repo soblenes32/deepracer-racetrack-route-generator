@@ -106,6 +106,10 @@ Data about the DeepRacer vehicle is not currently readily available. The current
 - ChampionshipCup2019_track
 - China_track
 - Mexico_track
+- Canada_Training
+- Vegas_track
+- reInvent2019_track
+- reInvent2019_wide
 
 ### Nonfunctional tracks:
 - Reinvent_base => There seems to be a problem with the inner track data waypoint sequence reversing along the y apex
